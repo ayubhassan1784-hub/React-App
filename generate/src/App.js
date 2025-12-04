@@ -12,6 +12,7 @@ const App = () => {
     return (
         <>
         <div>Generate</div>
+        <h4>testing</h1>
         <Header user={user} setUser={setUser} />
         <CreatePost />
         </>

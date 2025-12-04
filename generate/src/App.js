@@ -11,7 +11,7 @@ const App = () => {
     if (!user) return <Login setUser={setUser} />
     return (
         <>
-        <H1>Generate</H1>
+        <div>Generate</div>
         <Header user={user} setUser={setUser} />
         <CreatePost />
         </>

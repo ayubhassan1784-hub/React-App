@@ -20,7 +20,7 @@ const App = () => {
                 post => (
                     <div>
                         <h1>{post.content}</h1>
-                        <img src={URL.createObjectURL(post.image)} alt="" style={{width: "300px"}} />
+                        {post.image && <img src={URL.createObjectURL(post.image)} alt="" style={{width: "300px"}} />}
                     </div>
                 )
             )

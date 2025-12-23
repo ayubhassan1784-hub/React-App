@@ -17,7 +17,7 @@ const CreatePost = ({posts, setPosts}) => {
         <div>
             <h1>Create Post</h1>
             <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="Post Content"
+                <input type="text" placeholder="What's on your mind?"
                 onChange={(e)=>setContent(e.target.value)} 
                 value={content} />
                 <input type="file" 
